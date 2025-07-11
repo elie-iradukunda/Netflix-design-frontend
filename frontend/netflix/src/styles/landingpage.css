@@ -6,13 +6,16 @@
 .navs{
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    
 
 }
 
 .logo img{
     width: 200px;
     background-color: red;
+    padding: 20px;
+    margin-top: 1cm;
+    margin-left: 1cm;
     
   
 }
@@ -22,63 +25,61 @@ body{
     
 }
 
-
-.nav2{
-    display: flex;
+select{
+    background-color: #09112c;
+    width: 200px;
+    color: rgb(236, 231, 231);
     padding: 20px;
-    margin-right: 20px;
-}
-.nav2 select{
-    width: 140px;
-    padding: 20px;
-    color: rgb(253, 243, 243);
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
+    border: none;
+    border-radius: 10px;
     font-size: 20px;
-background-color: rgba(0, 0, 0, 0.764);
-border: none;
-border-radius: 10px;
-cursor: pointer;
-
+    cursor: pointer;
 }
 .nav2 button{
-     width: 110px;
+    width: 120px;
     padding: 20px;
-    margin-left: 2rem;
-    color: rgb(253, 243, 243);
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    font-size: 20px;
-background-color: red;
-border: none;
-cursor: pointer;
-border-radius: 10px;
+    margin-left: 0.3cm;
+    border: none;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+     font-size: 20px;
+     cursor: pointer;
 }
 
 .welcome h1{
     color: rgb(254, 254, 255);
     font-size: 60px;
+    text-align: center;
 
 }
 
 .welcome p{
-    font-size: 30px;
+    font-size: 20px;
+    text-align: center;
+    
 }
 
+.welcome{
+    margin-top: 2cm;
+}
 
 .forms input{
-    width: 200px;
+    width: 2000px;
     padding: 10px;
     border: none;
     border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.836);
+    background-color: #0F0F0F;
     color: white;
 
+}
+.forms input,button{
+    margin-top: 2cm;
 }
 
 .forms button{
     background-color: red;
-     width: 200px;
+     width: 1000px;
      display: flex;
      justify-content: center;
     padding: 10px;
@@ -102,6 +103,8 @@ border-radius: 10px;
     margin-left: 30%;
 }
 
+
+
 .forms img{
     width:19px;
     align-items: center;
@@ -116,6 +119,7 @@ border-radius: 10px;
   width: 100%;
   box-sizing: border-box;
   margin-top: 5rem;
+  
 }
 
 .films img{
@@ -126,8 +130,128 @@ border-radius: 10px;
 
 .cars{
     width: 100%;
-    background-color: red;
+   
     border: none;
     border-radius: 20px;
+    transition: 0.9s ease-in-out;
+    cursor: pointer;
 
+}
+.cars:hover{
+    transition: 0.5s ease-in-out;
+    background-color:red;
+    width: 103%;
+     border-radius: 20px;
+
+}
+
+.more{
+   display: flex;
+   flex-direction: column;
+   margin-left: 8cm;
+  width: 900px;
+    padding: 20px;
+    margin-top: 4cm;
+    text-align: center;
+
+}
+
+.more img{
+    width: 60px;
+    margin-left: 19cm;
+    cursor: pointer;
+    
+}
+
+
+.tv{
+   margin-top: 80px;
+     background-color: #1D1931;
+   width: 100%;
+   height: 200px;
+   border: 2px solid rgb(3, 165, 92);
+   border-radius: 20px;
+   transition: 0.5s ease-in-out;
+   cursor: pointer;
+
+    
+}
+
+.tv:hover{
+    transition: 0.4s ease-in-out;
+    background-color: #332868;
+}
+
+.tv p{
+    font-size: 20px;
+    margin-top: 0.5cm;
+}
+
+.tv h1{
+    margin-top: 1cm;
+}
+
+
+
+.questions{
+   display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #09112c;
+    margin-top: 1cm;
+    
+    border-radius: 20px;
+    margin: 2cm;
+    transition: 0.5s ease-in-out;
+
+}
+
+.images img{
+    width: 30px;
+    margin-top: 1cm;
+    
+}
+
+.questions p{
+    margin-left: 4cm;
+    font-size: 25px;
+    color: white;
+}
+
+.images{
+    color: antiquewhite;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+
+}
+
+.questions:hover{
+    background-color:#414141;
+}
+
+.foo{
+    
+    
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4cm;
+}
+
+.foo ul li{
+    list-style: none;
+    padding: 10px;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+.foo ul li:hover{
+background-color: #09112c;
+border-radius: 10px;
+}
+
+.all{
+    background-color: #000000;
+}
+.asked h1{
+    text-align: center;
+    margin-top: 2cm;
 }

@@ -1,0 +1,58 @@
+.register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+ 
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.account {
+  background-color: rgba(56, 46, 46, 0.75);
+  padding: 40px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 400px;
+}
+
+form h1 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+form input[type="text"],
+form input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  background-color: #333;
+  border: none;
+  color: white;
+  border-radius: 4px;
+}
+
+form input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #f20a0a;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+form p {
+  font-size: 0.9rem;
+  margin: 10px 0;
+}
+
+form a {
+  color: #0071eb;
+  text-decoration: none;
+}

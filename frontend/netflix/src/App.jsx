@@ -1,12 +1,19 @@
-import React from 'react'
+import { Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
+import Getstarted from './components/Getstarted'
+import { useLocation } from 'react-router-dom'
+function App() {
+  const location = useLocation()
 
-const App = () => {
+  
+  const hideNavbar = location.pathname === '/getstarted'
   return (
-   <>
-   <Navbar/>
-   </>
+    <>
+      {!hideNavbar && <Navbar />}
+      <Routes>
+        <Route path="/getstarted" element={<Getstarted />} />
+      </Routes>
+    </>
   )
 }
-
-export default App
+export default App;
